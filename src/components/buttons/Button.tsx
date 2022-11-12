@@ -12,7 +12,7 @@ export const Button = styled.button<ButtonProps>`
   background-color: ${props => (props.theme === 'dark' ? 'black' : 'white')};
   color: #fff;
   font-size: ${props => fontButton[props.size || 'sm']};
-  min-width: ${props => sizeButton[props.size || 'xxl']};
+  min-width: ${props => sizeButton[props.size || 'sm']};
   color: ${props => (props.theme === 'dark' ? '#fff' : '#000')};
   max-width: max-content;
   padding: 0.5rem 1.3rem;
